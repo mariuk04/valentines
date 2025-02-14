@@ -1,0 +1,126 @@
+@keyframes floatAround {
+    0% {
+        top: 10%;
+        left: 10%;
+    }
+    25% {
+        top: 10%;
+        left: 80%;
+    }
+    50% {
+        top: 80%;
+        left: 80%;
+    }
+    75% {
+        top: 80%;
+        left: 10%;
+    }
+    100% {
+        top: 10%;
+        left: 10%;
+    }
+}
+.allura-regular {
+  font-family: "Allura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.play-regular {
+  font-family: "Play", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body{
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  font-size: large;
+  text-align: center;
+  background-color: rgb(240, 217, 221);
+  font-family:'Play';
+
+}
+
+h1{
+  font-size: 90px;
+  padding-top: 10px;
+}
+h2{
+  padding-bottom: 10px;
+}
+a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+a:hover{
+  color: red;
+  font-weight: bold;
+}
+
+
+.question{
+  padding-top: 10px;
+  font-family: 'Play';
+  font-size: 30px;
+}
+
+
+.answers{
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  align-items: center;     /* Center horizontally */
+  justify-content: center; /* Center vertically (if needed) */
+  gap:5px; /* Adds space between items */
+  
+}
+.answers div {
+  display: block;  /* Ensures items stack vertically */
+  margin: 10px 0;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+  border-radius: 15px;
+  width:250px
+}
+
+.answers div:hover {
+  background: rgba(255, 255, 255, 0.5); /* Hover effect */
+  transform: scale(1.05)
+}
+
+.answers a{
+  color: black;
+}
+.answers .CORRECT:active{
+  background-color: green;
+}
+.answers .WRONG:active{
+  background-color: red;
+}
+
+.pics div {
+  display: inline-block; /* Makes divs sit next to each other */
+  vertical-align: top; /* Aligns them at the top */
+  margin: 10px; /* Adds spacing between them */
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+.pics img{
+  visibility: hidden;
+  opacity: 0;
+}
+.pics div:hover img{
+  visibility: visible;
+  opacity: 1;
+}
