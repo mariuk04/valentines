@@ -22,8 +22,8 @@
     padding: 10px 20px; /* Easier to tap */
   }
   .question {
-    font-size: 40px !important; /* Make the question text larger */
-    padding-top: 7px; /* Increase padding for better spacing */
+    font-size: 35px !important; /* Make the question text larger */
+    padding-top: 5px; /* Increase padding for better spacing */
   }
 
   .answers div {
