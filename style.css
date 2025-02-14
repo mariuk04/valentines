@@ -1,5 +1,8 @@
 
 @media (max-width: 500px) {
+  body{
+    background-color: lightblue;
+  }
   h1 {
     font-size: 30px; /* Reduce title size for smaller screens */
   }
@@ -19,8 +22,8 @@
     padding: 10px 20px; /* Easier to tap */
   }
   .question {
-    font-size: 50px !important; /* Make the question text larger */
-    padding-top: 20px; /* Increase padding for better spacing */
+    font-size: 40px !important; /* Make the question text larger */
+    padding-top: 7px; /* Increase padding for better spacing */
   }
 
   .answers div {
