@@ -1,10 +1,22 @@
-@media (max-width: 600px) {
-  .question {
-      font-size: 20px; /* Reduce text size on small screens */
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 30px; /* Reduce title size for smaller screens */
+  }
+  
+  h2 {
+    font-size: 18px; /* Adjust subtitle size */
   }
 
-  .answers div {
-      width: 90%; /* Make boxes wider on small screens */
+  img {
+    max-width: 80%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  a {
+    display: inline-block;
+    font-size: 24px; /* Slightly smaller */
+    padding: 10px 20px; /* Easier to tap */
   }
 }
 .allura-regular {
@@ -29,7 +41,6 @@ body{
   height: 100vh;
   margin: 0;
   position: relative;
-  overflow: hidden;
   font-size: large;
   text-align: center;
   background-color: rgb(240, 217, 221);
@@ -38,7 +49,7 @@ body{
 }
 
 h1{
-  font-size: 90px;
+  font-size: 80px;
   padding-top: 10px;
 }
 h2{
