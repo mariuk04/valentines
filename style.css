@@ -1,11 +1,11 @@
 @media (max-width: 600px) {
-    .question {
-        font-size: 20px; /* Reduce text size on small screens */
-    }
+  .question {
+      font-size: 20px; /* Reduce text size on small screens */
+  }
 
-    .answers div {
-        width: 90%; /* Make boxes wider on small screens */
-    }
+  .answers div {
+      width: 90%; /* Make boxes wider on small screens */
+  }
 }
 .allura-regular {
   font-family: "Allura", serif;
@@ -110,4 +110,23 @@ a:hover{
 .pics div:hover img{
   visibility: visible;
   opacity: 1;
+}
+
+.button{
+  display: block;
+  font-size: large;
+  width: 100px;
+  height: 50px;
+  background-color: green ;
+  border-radius: 15px;
+  position: absolute;
+  top: 80%;
+  left: 45%;
+  text-align: center;
+}
+.button:hover{
+  transform: scale(1.05)
+}
+.button a{
+  color: black;
 }
