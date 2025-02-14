@@ -18,6 +18,19 @@
     font-size: 24px; /* Slightly smaller */
     padding: 10px 20px; /* Easier to tap */
   }
+  .question {
+    font-size: 50px !important; /* Make the question text larger */
+    padding-top: 20px; /* Increase padding for better spacing */
+  }
+
+  .answers div {
+    padding: 15px;  /* Increase padding for answer boxes */
+    width: 80%;     /* Make answer boxes wider */
+  }
+
+  .answers a {
+    font-size: 30px;  /* Increase font size of answers */
+  }
 }
 .allura-regular {
   font-family: "Allura", serif;
